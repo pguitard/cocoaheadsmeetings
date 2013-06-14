@@ -1,0 +1,14 @@
+Get all meetings:
+curl http://localhost:3000/api/meetings
+
+Add a new meeting:
+curl -d "date=2014-02-10T08:44:23.372Z&location=Shopify Offices&agenda=node.js presentation" http://localhost:3000/api/meetings
+
+Get a meeting:
+curl http://localhost:3000/api/meetings/<ID here!>
+
+Update a meeting:
+curl -X PUT -d "date=2014-02-10T08:44:23.372Z&location=Shopify Offices&agenda=worst node.js presentation ever" http://localhost:3000/api/meetings/<ID here!>
+
+Delete a meeting:
+curl -X DELETE http://localhost:3000/api/meetings/<ID here!>

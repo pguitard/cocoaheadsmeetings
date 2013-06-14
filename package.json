@@ -1,0 +1,17 @@
+{
+	"name": "Cocoaheads Meetings", 
+	"version": "0.0.1", 
+	"author": "Philippe Guitard <philippeguitard at gmail dot com>",
+	"description" : "a simple web service to manage cocoaheads meetings",
+	"private": true, 
+	"scripts": {
+      "start": "NODE_ENV=development ./node_modules/.bin/nodemon app.js"
+    },
+	"dependencies": {
+		"express" : "3.x",
+		"mongoose" : "3.5.x"
+	}, 
+	"devDependencies": {
+        "nodemon": "latest"
+    }
+}
