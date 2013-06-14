@@ -1,8 +1,5 @@
-Build your own REST API with node.js
-====================================
-
-Cocoaheads Ottawa/Gatineau, Thursday 13th 2013
-----------------------------------------------
+Demo application built for a presentation at Cocoaheads Ottawa/Gatineau
+=======================================================================
 
 To run the application, you need to install:
 
